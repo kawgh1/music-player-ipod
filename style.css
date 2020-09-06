@@ -79,54 +79,66 @@ font-family: Spartan, sans-serif;
 
 @keyframes flickerAnimation {
   0%   { opacity:1; }
-  7%   { opacity:.4; }
-  22%   { opacity:.6; }
-  39%   { opacity:1; }
-  50%   { brightness: 120%; }
-  60%   { opacity:.8; }
-  72%   { brightness: 140%; }
-  87%   { opacity:.6; }
-  100% { opacity:.5; }
-}
-@-o-keyframes flickerAnimation{
-  0%   { opacity:1; }
-  7%   { opacity:.4; }
-  22%   { opacity:.6; }
-  39%   { opacity:1; }
-  50%   { brightness: 120%; }
-  60%   { opacity:.8; }
-  72%   { brightness: 140%; }
-  87%   { opacity:.6; }
-  100% { opacity:.5; }
-}
-@-moz-keyframes flickerAnimation{
-  0%   { opacity:1; }
+  2%  { brightness: 140%; }
   7%   { opacity:.6; }
+  12%   { opacity:.85; }
+  17%   { opacity:.5; }
   22%   { opacity:.3; }
   39%   { opacity:1; }
-  50%   { brightness: 140%; }
+  50%   { brightness: 120%; }
   60%   { opacity:.8; }
   72%   { brightness: 180%; }
   87%   { opacity:.6; }
-  100% { opacity:.5; }
+  100% { opacity:.3; }
 }
-@-webkit-keyframes flickerAnimation{
+@-o-keyframes flickerAnimation{
   0%   { opacity:1; }
-  7%   { opacity:.4; }
-  22%   { opacity:.6; }
+  2%  { brightness: 140%; }
+  7%   { opacity:.6; }
+  12%   { opacity:.85; }
+  17%   { opacity:.5; }
+  22%   { opacity:.3; }
   39%   { opacity:1; }
   50%   { brightness: 120%; }
   60%   { opacity:.8; }
-  72%   { brightness: 140%; }
+  72%   { brightness: 180%; }
   87%   { opacity:.6; }
-  100% { opacity:.5; }
+  100% { opacity:.3; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  2%  { brightness: 140%; }
+  7%   { opacity:.6; }
+  12%   { opacity:.85; }
+  17%   { opacity:.5; }
+  22%   { opacity:.3; }
+  39%   { opacity:1; }
+  50%   { brightness: 120%; }
+  60%   { opacity:.8; }
+  72%   { brightness: 180%; }
+  87%   { opacity:.6; }
+  100% { opacity:.3; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  2%  { brightness: 140%; }
+  7%   { opacity:.6; }
+  12%   { opacity:.85; }
+  17%   { opacity:.5; }
+  22%   { opacity:.3; }
+  39%   { opacity:1; }
+  50%   { brightness: 120%; }
+  60%   { opacity:.8; }
+  72%   { brightness: 180%; }
+  87%   { opacity:.6; }
+  100% { opacity:.3; }
 }
 
 .image-flicker {
-   -webkit-animation: flickerAnimation 3s infinite;
-   -moz-animation: flickerAnimation 3s infinite;
-   -o-animation: flickerAnimation 3s infinite;
-    animation: flickerAnimation 3s infinite;
+   -webkit-animation: flickerAnimation 6s infinite;
+   -moz-animation: flickerAnimation 6s infinite;
+   -o-animation: flickerAnimation 6s infinite;
+    animation: flickerAnimation 6s infinite;
 }
 
 
