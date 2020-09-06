@@ -433,16 +433,16 @@ h3, h4 {
 
   .player-controls {
     position: fixed;
-    top: 450px;
+    top: 400px;
     left: 169px;
     background: rgba(26, 100, 196, 0.8);
     width: 200px;
     height: 200px;
     display: -webkit-box; 
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex; 
-  display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
     border: solid 1px rgba(43, 40, 40, 0.8);
     border-radius: 100%;
     box-shadow: 1px 1px 3px 0.5px rgba(0, 0,0, 0.4);
@@ -657,7 +657,7 @@ display: flex;
  /* Controls */
 .player-controls {
   position: fixed;
-  top: 425px;
+  top: 390px;
   left: 85px;
   background: rgba(26, 100, 196, 0.8);
   width: 200px;
